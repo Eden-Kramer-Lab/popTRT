@@ -12,7 +12,10 @@ numpy
 matplotlib
 cython
 
-### Setting up popTRT
+### Installing popTRT
+python setup.py install
+
+### Using popTRT
 dataformat
 
 ####  Marked spike data
