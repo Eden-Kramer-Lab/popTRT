@@ -12,3 +12,14 @@ numpy
 matplotlib
 cython
 
+### Setting up popTRT
+dataformat
+
+####  Marked spike data
+posx(t)  spk01(t) mark1...K
+
+2 + K columns for 1-dimensional position, 0 or 1 spks in time bin and K dim mark (if spike == 1)
+
+#### Directories
+[popTRT](popTRT)    python and cython files 
+[run](run)   the python run scripts where one would enter parameters of the run, ie model type, input data file location etc.
